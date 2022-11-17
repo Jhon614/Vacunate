@@ -1,0 +1,365 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+body {
+    margin: 0;
+}
+
+/* header */
+
+header{
+    background-color: rgba(250, 254, 254, 0.7);
+    margin: 15px;
+    margin-top: 0;
+    height: 67px;
+}
+
+header h1{
+    float: left;
+}
+
+header div{
+    margin: 5px; 
+    float: right; 
+    align-items: baseline; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+header div a{
+    padding: 7px;
+    color: gray;
+    text-decoration: none;
+    float: right;
+    display: flex;
+}
+
+.boton{
+    height: 40px; 
+    color: white;
+    background-color: blue;
+    border: solid 0 none;
+    border-radius: 15px;
+}
+
+.boton:hover{
+    background-color: rgb(132, 65, 240);
+    color: white;
+}
+
+/* section 1 */
+
+.section1{
+    height: 826px;
+    padding-top: 10px;
+}
+
+.sexyNurse {
+    width: 800px;
+    height: 800px;
+    float: right;
+}
+
+.Divsection1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.DivSeparacion{
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.tabla1{
+    width: 500px;
+    height: 100px;
+    left: 20%;
+    margin-top: 30px;
+    font-size: 25px; 
+    position: absolute;
+    padding: 7px;
+    background-color: rgba(255, 255, 255, .7); 
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px black;
+}
+
+.tablacabecera {
+    align-items: baseline;
+    text-align: center;
+    margin: 5px;
+    font-size: 15px;
+}
+
+table tbody{
+    align-items: baseline;
+}
+
+.opciones{
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+    border: solid 1px black;
+    border-radius: 20px;
+}
+
+.opciones:hover{
+    background-color: rgb(67, 186, 245);
+    color: white;
+}
+
+.Enviar{
+    border: solid 1px black;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: #fff; 
+}
+
+.Enviar:hover{
+    background-color: rgb(67, 186, 245);
+    color: white;
+}
+
+/* section2 */
+
+.section2{
+    margin: 0;
+    padding: 20px;
+    height: 284px;
+}
+
+.fondovacunas{
+    filter: grayscale(1);
+    opacity: .2;
+    width: 1239px;
+    height: 333px;
+    left: 15%
+}
+
+/* section3 */
+
+.section3{
+    margin: 20px;
+    padding: 20px;
+}
+
+.tituloh3 {
+    font-size: 25px;
+}
+
+.parrafo{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.labelinfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.section3 label {
+    width: 290px;
+    height: 218px;
+    background-color: white;
+    border: solid 0 black;
+    border-radius: 21px;
+    box-shadow: 0px 2px 6px black;
+    margin: 23px;
+    padding: 7px;
+    text-align: center;
+    transition: 300ms;
+}
+
+.section3 label:hover{
+    transform: scale(1.15);
+}
+
+/* section4 */
+
+.section4{
+    margin: 20px;
+    padding: 20px;
+    height: 697px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section4parrafo{
+    font-size: 30px;
+}
+
+.divsection4 {
+    height: 600px;
+}
+
+.wearurmask {
+    width: 500px;
+    height: 500px;
+    float: left;
+    padding-left: 40px;
+}
+
+.section4-label {
+    padding: 10px;
+}
+.section4 div {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    padding-right: 30px;
+}
+
+.cajasSection4{
+    width: 522px;
+    height: 50px;
+    background-color: white;
+    border: solid 0px black;
+    border-radius: 21px;
+    box-shadow: 0px 2px 6px black;
+    margin: 12px;
+    padding-left: 5px;
+    transition: 300ms;
+}
+
+.cajasSection4:hover{
+    transform: scale(1.15);
+}
+
+.cajasparrafo {
+    padding: 10px;
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* section5 */
+
+.section5{
+    margin: 20px;
+    padding: 20px;
+    height: 600px;
+}
+
+.section5 h3{
+    width: 370px;
+    margin: 0;
+    padding-bottom: 18px;
+    font-size: 30px;
+}
+
+
+.section5 p {
+    margin: 0;
+    width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.tarjetaDirection1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.section5-tarjetas{
+    width: 434px;
+    padding: 10px;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.tarjeta{
+    width: 150px;
+    height: 130px;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    border: solid white;
+    border-radius: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 5px 2px;
+    transition: 300ms;
+}
+
+.tarjeta:hover{
+    transform: scale(1.15);
+}
+
+.tarjeta h4{
+    margin-bottom: 13px;
+}
+
+.tarjeta p{
+    width: 150px;
+    padding: 7px;
+    padding-bottom: 10px;
+}
+
+.nurse {
+    float: right;
+    height: 539px;
+    padding-right: 70px;
+}
+
+.tarjetaBoton {
+    border: solid 0px;
+    border-radius: 21px;
+    background-color: rgb(179, 203, 248);
+    color:rgb(19, 93, 229);
+}
+
+.tarjetaBoton:hover {
+    background-color: rgb(94, 103, 227);
+    color: white;
+}
+
+/* footer */
+
+footer {
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(128, 218, 246);
+    padding: 20px;
+}   
+
+.footerinfo{
+    width: 600px;
+    text-align: center;
+}
+
+.division{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.footercontent{
+    float: right;
+    padding: 9px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.footerfinal{
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+.footerfinal1 {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding: 10px;
+}
